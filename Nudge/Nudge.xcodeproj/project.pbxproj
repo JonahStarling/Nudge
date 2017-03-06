@@ -7,21 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109EBD06C7E7F0C4827D7E16 /* Pods_Nudge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8D6AD48162D1D0CA9A1AED /* Pods_Nudge.framework */; };
+		8C0EFA6D1E54F2B1001405CB /* MapPinStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA6C1E54F2B1001405CB /* MapPinStore.swift */; };
+		8C0EFA6F1E554917001405CB /* StatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA6E1E554916001405CB /* StatCell.swift */; };
+		8C0EFA711E55A832001405CB /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA701E55A832001405CB /* IntroViewController.swift */; };
+		8C0EFA741E56CA90001405CB /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA731E56CA90001405CB /* AccountCreationViewController.swift */; };
+		8C0EFA761E570F4C001405CB /* GreenLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA751E570F4C001405CB /* GreenLevelCell.swift */; };
+		8C0EFA781E570F58001405CB /* PinkLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA771E570F58001405CB /* PinkLevelCell.swift */; };
+		8C0EFA7A1E570F6B001405CB /* BlueLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EFA791E570F6B001405CB /* BlueLevelCell.swift */; };
 		8C11DEF31DB6759D00F9552A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C11DEF21DB6759D00F9552A /* AppDelegate.swift */; };
-		8C11DEF51DB6759D00F9552A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C11DEF41DB6759D00F9552A /* ViewController.swift */; };
 		8C11DEF81DB6759D00F9552A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C11DEF61DB6759D00F9552A /* Main.storyboard */; };
 		8C11DEFA1DB6759D00F9552A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C11DEF91DB6759D00F9552A /* Assets.xcassets */; };
 		8C11DEFD1DB6759D00F9552A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C11DEFB1DB6759D00F9552A /* LaunchScreen.storyboard */; };
+		8C11DF051DB816F400F9552A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C11DF041DB816F400F9552A /* MapViewController.swift */; };
+		8C3422B51E4E854100205D3F /* BigUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3422B41E4E854100205D3F /* BigUserProfileViewController.swift */; };
+		8C40B7941DB847FB002129D2 /* mapstyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C40B7931DB847FB002129D2 /* mapstyle.json */; };
+		8C43E5571E4C16230056B428 /* NudgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43E5561E4C16230056B428 /* NudgeCell.swift */; };
+		8C80D5CF1E58FDD2008B1A75 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80D5CE1E58FDD2008B1A75 /* SettingsViewController.swift */; };
+		8C80D5D11E58FDDF008B1A75 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80D5D01E58FDDF008B1A75 /* AboutViewController.swift */; };
+		8C80D5D51E590110008B1A75 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80D5D41E590110008B1A75 /* BioViewController.swift */; };
+		8C8301BE1E510E2900FB164B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8301BD1E510E2900FB164B /* UserProfileViewController.swift */; };
+		8C8301C01E511C9200FB164B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8301BF1E511C9200FB164B /* LoginViewController.swift */; };
+		8C8301C21E511DB100FB164B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8301C11E511DB100FB164B /* LoadingViewController.swift */; };
+		8C8301CC1E5143D000FB164B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C8301CB1E5143D000FB164B /* GoogleService-Info.plist */; };
+		8C8C9AEA1E63DD5B006F320A /* TermsOfUse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C9AE91E63DD5B006F320A /* TermsOfUse.pdf */; };
+		8C8C9AEC1E63DD6D006F320A /* PrivacyPolicy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C9AEB1E63DD6D006F320A /* PrivacyPolicy.pdf */; };
+		8C8C9AEE1E63F3D0006F320A /* MapPresenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C9AED1E63F3D0006F320A /* MapPresenceViewController.swift */; };
+		8C8C9AF01E651DF3006F320A /* BlockedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C9AEF1E651DF3006F320A /* BlockedCell.swift */; };
+		8C8ECE111E5D1D4B00A1459C /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE101E5D1D4B00A1459C /* TermsViewController.swift */; };
+		8C8ECE151E5D478300A1459C /* CreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE141E5D478300A1459C /* CreatorViewController.swift */; };
+		8C8ECE171E5D493D00A1459C /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE161E5D493D00A1459C /* AboutCell.swift */; };
+		8C8ECE191E5D556B00A1459C /* FAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE181E5D556B00A1459C /* FAQCell.swift */; };
+		8C8ECE1B1E5D55D400A1459C /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE1A1E5D55D400A1459C /* PrivacyPolicyViewController.swift */; };
+		8C8ECE1D1E5D55E300A1459C /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE1C1E5D55E300A1459C /* FAQViewController.swift */; };
+		8C8ECE211E5D561100A1459C /* NudgePolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8ECE201E5D561100A1459C /* NudgePolicyViewController.swift */; };
+		8CE44D6B1E10E2F70034EE58 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE44D6A1E10E2F70034EE58 /* ProfileCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36F90650CEC6BD9C6A3D1308 /* Pods-Nudge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nudge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nudge/Pods-Nudge.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0EFA6C1E54F2B1001405CB /* MapPinStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPinStore.swift; sourceTree = "<group>"; };
+		8C0EFA6E1E554916001405CB /* StatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatCell.swift; sourceTree = "<group>"; };
+		8C0EFA701E55A832001405CB /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		8C0EFA721E5697C8001405CB /* Nudge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nudge.entitlements; sourceTree = "<group>"; };
+		8C0EFA731E56CA90001405CB /* AccountCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
+		8C0EFA751E570F4C001405CB /* GreenLevelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenLevelCell.swift; sourceTree = "<group>"; };
+		8C0EFA771E570F58001405CB /* PinkLevelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkLevelCell.swift; sourceTree = "<group>"; };
+		8C0EFA791E570F6B001405CB /* BlueLevelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueLevelCell.swift; sourceTree = "<group>"; };
 		8C11DEEF1DB6759D00F9552A /* Nudge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nudge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C11DEF21DB6759D00F9552A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C11DEF41DB6759D00F9552A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C11DEF71DB6759D00F9552A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C11DEF91DB6759D00F9552A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C11DEFC1DB6759D00F9552A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C11DEFE1DB6759D00F9552A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C11DF041DB816F400F9552A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8C3422B41E4E854100205D3F /* BigUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigUserProfileViewController.swift; sourceTree = "<group>"; };
+		8C40B7931DB847FB002129D2 /* mapstyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapstyle.json; sourceTree = "<group>"; };
+		8C43E5561E4C16230056B428 /* NudgeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NudgeCell.swift; sourceTree = "<group>"; };
+		8C80D5CE1E58FDD2008B1A75 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8C80D5D01E58FDDF008B1A75 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8C80D5D41E590110008B1A75 /* BioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		8C8301BD1E510E2900FB164B /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		8C8301BF1E511C9200FB164B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8C8301C11E511DB100FB164B /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		8C8301CB1E5143D000FB164B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C8C9AE91E63DD5B006F320A /* TermsOfUse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TermsOfUse.pdf; sourceTree = "<group>"; };
+		8C8C9AEB1E63DD6D006F320A /* PrivacyPolicy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PrivacyPolicy.pdf; sourceTree = "<group>"; };
+		8C8C9AED1E63F3D0006F320A /* MapPresenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenceViewController.swift; sourceTree = "<group>"; };
+		8C8C9AEF1E651DF3006F320A /* BlockedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedCell.swift; sourceTree = "<group>"; };
+		8C8ECE101E5D1D4B00A1459C /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		8C8ECE141E5D478300A1459C /* CreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorViewController.swift; sourceTree = "<group>"; };
+		8C8ECE161E5D493D00A1459C /* AboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		8C8ECE181E5D556B00A1459C /* FAQCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQCell.swift; sourceTree = "<group>"; };
+		8C8ECE1A1E5D55D400A1459C /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		8C8ECE1C1E5D55E300A1459C /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		8C8ECE201E5D561100A1459C /* NudgePolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NudgePolicyViewController.swift; sourceTree = "<group>"; };
+		8CE44D6A1E10E2F70034EE58 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		9D8D6AD48162D1D0CA9A1AED /* Pods_Nudge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nudge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B681A2D088CAF5F3FD233F67 /* Pods-Nudge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nudge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nudge/Pods-Nudge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +92,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109EBD06C7E7F0C4827D7E16 /* Pods_Nudge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		367EF90C95F967C90B50D5EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D6AD48162D1D0CA9A1AED /* Pods_Nudge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55D559E95B0B41CCBB33423A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36F90650CEC6BD9C6A3D1308 /* Pods-Nudge.debug.xcconfig */,
+				B681A2D088CAF5F3FD233F67 /* Pods-Nudge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C0EFA7B1E570FB5001405CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8CE44D6A1E10E2F70034EE58 /* ProfileCell.swift */,
+				8C43E5561E4C16230056B428 /* NudgeCell.swift */,
+				8C0EFA6E1E554916001405CB /* StatCell.swift */,
+				8C0EFA751E570F4C001405CB /* GreenLevelCell.swift */,
+				8C0EFA771E570F58001405CB /* PinkLevelCell.swift */,
+				8C0EFA791E570F6B001405CB /* BlueLevelCell.swift */,
+				8C8ECE161E5D493D00A1459C /* AboutCell.swift */,
+				8C8ECE181E5D556B00A1459C /* FAQCell.swift */,
+				8C8C9AEF1E651DF3006F320A /* BlockedCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		8C11DEE61DB6759D00F9552A = {
 			isa = PBXGroup;
 			children = (
 				8C11DEF11DB6759D00F9552A /* Nudge */,
 				8C11DEF01DB6759D00F9552A /* Products */,
+				55D559E95B0B41CCBB33423A /* Pods */,
+				367EF90C95F967C90B50D5EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +154,33 @@
 			isa = PBXGroup;
 			children = (
 				8C11DEF21DB6759D00F9552A /* AppDelegate.swift */,
-				8C11DEF41DB6759D00F9552A /* ViewController.swift */,
+				8C8301C11E511DB100FB164B /* LoadingViewController.swift */,
+				8C8301BF1E511C9200FB164B /* LoginViewController.swift */,
+				8C0EFA731E56CA90001405CB /* AccountCreationViewController.swift */,
+				8C80D5D41E590110008B1A75 /* BioViewController.swift */,
+				8C8ECE101E5D1D4B00A1459C /* TermsViewController.swift */,
+				8C0EFA701E55A832001405CB /* IntroViewController.swift */,
+				8C8C9AED1E63F3D0006F320A /* MapPresenceViewController.swift */,
+				8C11DF041DB816F400F9552A /* MapViewController.swift */,
+				8C3422B41E4E854100205D3F /* BigUserProfileViewController.swift */,
+				8C8301BD1E510E2900FB164B /* UserProfileViewController.swift */,
+				8C80D5CE1E58FDD2008B1A75 /* SettingsViewController.swift */,
+				8C80D5D01E58FDDF008B1A75 /* AboutViewController.swift */,
+				8C8ECE141E5D478300A1459C /* CreatorViewController.swift */,
+				8C8ECE1A1E5D55D400A1459C /* PrivacyPolicyViewController.swift */,
+				8C8ECE1C1E5D55E300A1459C /* FAQViewController.swift */,
+				8C8ECE201E5D561100A1459C /* NudgePolicyViewController.swift */,
+				8C0EFA6C1E54F2B1001405CB /* MapPinStore.swift */,
+				8C0EFA7B1E570FB5001405CB /* Cells */,
 				8C11DEF61DB6759D00F9552A /* Main.storyboard */,
 				8C11DEF91DB6759D00F9552A /* Assets.xcassets */,
 				8C11DEFB1DB6759D00F9552A /* LaunchScreen.storyboard */,
 				8C11DEFE1DB6759D00F9552A /* Info.plist */,
+				8C8301CB1E5143D000FB164B /* GoogleService-Info.plist */,
+				8C0EFA721E5697C8001405CB /* Nudge.entitlements */,
+				8C40B7931DB847FB002129D2 /* mapstyle.json */,
+				8C8C9AEB1E63DD6D006F320A /* PrivacyPolicy.pdf */,
+				8C8C9AE91E63DD5B006F320A /* TermsOfUse.pdf */,
 			);
 			path = Nudge;
 			sourceTree = "<group>";
@@ -71,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C11DF011DB6759D00F9552A /* Build configuration list for PBXNativeTarget "Nudge" */;
 			buildPhases = (
+				01166B4421EC8901BD14D6B9 /* [CP] Check Pods Manifest.lock */,
 				8C11DEEB1DB6759D00F9552A /* Sources */,
 				8C11DEEC1DB6759D00F9552A /* Frameworks */,
 				8C11DEED1DB6759D00F9552A /* Resources */,
+				2975E08F402C17F4AE14F973 /* [CP] Embed Pods Frameworks */,
+				D481E2CBF3EC92427ED1C818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,13 +215,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "In The Belly";
 				TargetAttributes = {
 					8C11DEEE1DB6759D00F9552A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = VWJRY9T89T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,21 +253,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8C9AEC1E63DD6D006F320A /* PrivacyPolicy.pdf in Resources */,
+				8C40B7941DB847FB002129D2 /* mapstyle.json in Resources */,
 				8C11DEFD1DB6759D00F9552A /* LaunchScreen.storyboard in Resources */,
 				8C11DEFA1DB6759D00F9552A /* Assets.xcassets in Resources */,
 				8C11DEF81DB6759D00F9552A /* Main.storyboard in Resources */,
+				8C8301CC1E5143D000FB164B /* GoogleService-Info.plist in Resources */,
+				8C8C9AEA1E63DD5B006F320A /* TermsOfUse.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01166B4421EC8901BD14D6B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2975E08F402C17F4AE14F973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nudge/Pods-Nudge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D481E2CBF3EC92427ED1C818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nudge/Pods-Nudge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C11DEEB1DB6759D00F9552A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C11DEF51DB6759D00F9552A /* ViewController.swift in Sources */,
+				8C8301C01E511C9200FB164B /* LoginViewController.swift in Sources */,
+				8C0EFA7A1E570F6B001405CB /* BlueLevelCell.swift in Sources */,
+				8C0EFA761E570F4C001405CB /* GreenLevelCell.swift in Sources */,
+				8C8ECE211E5D561100A1459C /* NudgePolicyViewController.swift in Sources */,
+				8C8C9AEE1E63F3D0006F320A /* MapPresenceViewController.swift in Sources */,
+				8CE44D6B1E10E2F70034EE58 /* ProfileCell.swift in Sources */,
+				8C0EFA6D1E54F2B1001405CB /* MapPinStore.swift in Sources */,
+				8C80D5D51E590110008B1A75 /* BioViewController.swift in Sources */,
+				8C8301BE1E510E2900FB164B /* UserProfileViewController.swift in Sources */,
+				8C8301C21E511DB100FB164B /* LoadingViewController.swift in Sources */,
+				8C8ECE191E5D556B00A1459C /* FAQCell.swift in Sources */,
+				8C8ECE1D1E5D55E300A1459C /* FAQViewController.swift in Sources */,
+				8C80D5CF1E58FDD2008B1A75 /* SettingsViewController.swift in Sources */,
+				8C0EFA781E570F58001405CB /* PinkLevelCell.swift in Sources */,
+				8C8C9AF01E651DF3006F320A /* BlockedCell.swift in Sources */,
+				8C8ECE111E5D1D4B00A1459C /* TermsViewController.swift in Sources */,
+				8C80D5D11E58FDDF008B1A75 /* AboutViewController.swift in Sources */,
+				8C0EFA6F1E554917001405CB /* StatCell.swift in Sources */,
+				8C8ECE151E5D478300A1459C /* CreatorViewController.swift in Sources */,
+				8C3422B51E4E854100205D3F /* BigUserProfileViewController.swift in Sources */,
+				8C0EFA741E56CA90001405CB /* AccountCreationViewController.swift in Sources */,
 				8C11DEF31DB6759D00F9552A /* AppDelegate.swift in Sources */,
+				8C0EFA711E55A832001405CB /* IntroViewController.swift in Sources */,
+				8C11DF051DB816F400F9552A /* MapViewController.swift in Sources */,
+				8C8ECE1B1E5D55D400A1459C /* PrivacyPolicyViewController.swift in Sources */,
+				8C43E5571E4C16230056B428 /* NudgeCell.swift in Sources */,
+				8C8ECE171E5D493D00A1459C /* AboutCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +388,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +438,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,12 +465,19 @@
 		};
 		8C11DF021DB6759D00F9552A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F90650CEC6BD9C6A3D1308 /* Pods-Nudge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nudge/Nudge.entitlements;
 				DEVELOPMENT_TEAM = VWJRY9T89T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Nudge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.simplyjonah.Nudge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nudgejonah.Nudge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,12 +485,19 @@
 		};
 		8C11DF031DB6759D00F9552A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B681A2D088CAF5F3FD233F67 /* Pods-Nudge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nudge/Nudge.entitlements;
 				DEVELOPMENT_TEAM = VWJRY9T89T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Nudge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.simplyjonah.Nudge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nudgejonah.Nudge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +522,7 @@
 				8C11DF031DB6759D00F9552A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
